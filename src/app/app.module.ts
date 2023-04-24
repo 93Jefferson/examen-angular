@@ -13,11 +13,15 @@ import { HttpClientModule } from '@angular/common/http';
 import { MessageService } from 'primeng/api';
 import { ReactiveFormsModule } from '@angular/forms';
 import { InputTextModule } from 'primeng/inputtext';
+import { PantallaExamenComponent } from './pages/pantalla-examen/pantalla-examen.component';
+import { LoadingComponent } from './component/loading/loading.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PantallaExamenComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,

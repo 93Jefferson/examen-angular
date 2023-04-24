@@ -1,9 +1,10 @@
 import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
+import { PantallaExamenComponent } from './pages/pantalla-examen/pantalla-examen.component';
 
 const routes: Routes=[
-  // {path: '', redirectTo: 'inicio',pathMatch: 'full' },
-  // {path: 'inicio', component: InicioComponent },
+  {path: '', redirectTo: 'TablaPokemon',pathMatch: 'full' },
+  {path: 'TablaPokemon', component: PantallaExamenComponent },
   // {path: 'tabla', component: PaginaTablaComponent }
 ];
 
